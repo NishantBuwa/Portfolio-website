@@ -41,7 +41,7 @@ function Navbar() {
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact_resume">Contact Me</a></li>
-        <li><a href={resume} target="_blank">Resume</a></li>
+        <li><a href={resume} target="_blank" rel="noreferrer">Resume</a></li>
       </ul>
     </nav>
   )

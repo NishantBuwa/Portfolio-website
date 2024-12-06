@@ -79,7 +79,7 @@ const Card = ({ name, link, description, tags, pic }) => {
                 <p className="card-text">
                     {description}
                 </p>
-                <a href={link} target="_blank" className="btn btn-primary" style={{ cursor: "pointer" }}>
+                <a href={link} target="_blank" rel="noreferrer" className="btn btn-primary" style={{ cursor: "pointer" }}>
                     See Live Project
                 </a>
                 <p className="tags">{tags}</p>
