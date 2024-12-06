@@ -16,8 +16,6 @@ function Section3() {
                         <h1>CERTIFICATIONS</h1>
                     </div>
                     <div className="my_container">
-
-
                         <div id="default-carousel" className="relative w-full" data-carousel="slide">
                             <div className="my-carousel relative h-56 overflow-hidden rounded-lg md:h-96">
                                 <div className=" hidden duration-700 ease-in-out" data-carousel-item>
