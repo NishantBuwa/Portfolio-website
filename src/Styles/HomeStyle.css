@@ -549,7 +549,9 @@ form {
     #certifications .section3-content .my_container {
         margin-top: 10px;
     }
-
+    #certifications .section3-content .my-carousel {
+        width:100%;
+    }
     #certifications .section3-content .my-carousel img {
         width: 180px;
         border: 2px solid yellow;
