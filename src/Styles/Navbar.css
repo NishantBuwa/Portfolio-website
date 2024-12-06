@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    background-color: #100C08;   
+    overflow-x: visible;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap:40px;
+    padding:0px;
+}
+
+.navbar a {
+    color: #D3D3D3;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: .4s infinite ease-in;
+    position: relative;
+}
+
+.navbar a:after {
+    content: '';
+    position: absolute;
+    background-color: yellow;
+    height: 3px;
+    width: 0;
+    left: 0;
+    top: 2.9rem;
+    transition: .3s
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 0 0rem;
+ }
+
+@media(570px<=width<760px) {
+    .navbar a {
+        font-size: 1rem;
+    }
+    nav{
+        height:75px;
+    }
+    nav ul{
+        gap:30px;
+    }
+}
+
+@media(480px<=width<570px) {
+    .navbar a {
+        font-size: .7rem;
+    }
+    nav{
+        height:65px;
+    }
+    nav ul{
+        gap:25px;
+    }
+}
+
+
+@media (390px<=width<480px) {
+    .navbar a {
+        font-size: .5rem;
+        padding-top: 7px;
+    }
+    nav{
+        height:43px;
+    }
+    nav ul{
+        gap:20px;
+    }
+    a:hover{
+        width:0%;
+    }
+    
+}
+
+@media(width<390px){
+    .progressbar{
+        height:3px;
+    }
+    .navbar a {
+        font-size: .5rem;
+        padding-top: 7px;
+    }
+    nav{
+        background: rgb(59, 58, 58);
+        height:30px !important;
+        height:43px;
+    }
+    nav ul{
+        gap:20px;
+    }
+    nav ul li a{
+        padding-top: .2rem;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    a:hover:after {
+        width: 0%;
+    }
+    
+}
