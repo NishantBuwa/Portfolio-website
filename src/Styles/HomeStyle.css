@@ -557,12 +557,13 @@ form {
     }
     #certifications .section3-content #default-carousel .my-carousel .my-img img{
         width: 180px !important;
+        height:100px;
         outline: 2px solid yellow;
     }
 
     #certifications .section3-content .round-button button {
-        height:5px;
-        width:5px;
+        height:7px;
+        width:7px;
     }
     #certifications .section3-content .round-button{
         bottom:10px;
