@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../Styles/Footer.css'
 import mail from '../../Assets/mail.png'
-import phone from '../../Assets/phone.png'
+// import phone from '../../Assets/phone.png'
 import location from '../../Assets/location.png'
 
 function Footer() {
