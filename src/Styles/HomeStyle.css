@@ -543,6 +543,7 @@ form {
 
     #certifications {
         min-height: fit-content;
+        min-width: fit-content;
     }
 
     #certifications .section3-content .my_container {
