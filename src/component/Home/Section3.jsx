@@ -18,7 +18,7 @@ function Section3() {
                     <div className="my_container">
                         <div id="default-carousel" className="relative w-full" data-carousel="slide">
                             <div className="my-carousel relative h-52 rounded-lg md:h-96">
-                                <div className="my-img hidden duration-700 ease-in-out" data-carousel-item>
+                                <div className="my-img duration-700 ease-in-out" data-carousel-item>
                                     <img src={Nptel} className="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-full max-h-full" alt="..." />
                                 </div>
                                 <div className="my-img hidden duration-700 ease-in-out" data-carousel-item>
