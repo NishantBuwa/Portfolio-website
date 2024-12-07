@@ -229,7 +229,6 @@
 #certifications .section3-content .my_container {
     margin-top: 5rem;
 }
-
 #certifications .section3-content .my-carousel img {
     width: 700px;
 }
@@ -543,7 +542,7 @@ form {
 
 
     #certifications {
-        /* min-height: fit-content; */
+        min-height: fit-content;
     }
 
     #certifications .section3-content .my_container {
@@ -555,13 +554,17 @@ form {
     #certifications .section3-content #default-carousel .my-carousel{
         outline:2px solid purple;
     }
-    /* #certifications .section3-content #default-carousel .my-carousel .my-img img{
+    #certifications .section3-content #default-carousel .my-carousel .my-img img{
         width: 180px !important;
         outline: 2px solid yellow;
-    } */
+    }
 
-    #certifications .section3-content .round-button {
-        bottom: 10px;
+    #certifications .section3-content .round-button button {
+        height:5px;
+        width:5px;
+    }
+    #certifications .section3-content .round-button{
+        bottom:10px;
     }
 
     #skills {
@@ -574,9 +577,11 @@ form {
         row-gap: 25px;
         column-gap: 15px;
     }
-
+    #skills .section4-content{
+        margin-top: 0rem;
+    }
     #skills .section4-content .heading {
-        /* padding-top: 5rem; */
+        padding-top: 5rem;
         text-align: center;
     }
 
