@@ -31,10 +31,10 @@ function Footer() {
             <img src={mail} alt="" />
             <a href="mailto:nishant.buwa.0110@gmail.com">: nishant.buwa.0110@gmail.com</a>
           </div>
-          <div className="pair">
+          {/* <div className="pair">
             <img src={phone} alt="" />
             <a href="tel:+918824455667">: +91 8824455667</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
