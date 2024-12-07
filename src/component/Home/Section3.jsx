@@ -1,9 +1,10 @@
 import React from "react"
 import Nptel from '../../Assets//Nptel.png'
-import tcs_ion from '../../Assets/Tcs_ion.png'
-import hackerrank from '../../Assets/Hackerrank.png'
-import udemy_1 from '../../Assets/Udemy_1.png'
-import udemy_2 from '../../Assets/Udemy_2.png'
+import Tcs_ion from '../../Assets/Tcs_ion.png'
+import Hackerrank from '../../Assets/Hackerrank.png'
+import Udemy_1 from '../../Assets/Udemy_1.png'
+import Udemy_2 from '../../Assets/Udemy_2.png'
+import Carousel from 'react-bootstrap/Carousel';
 
 
 
@@ -16,7 +17,44 @@ function Section3() {
                         <h1>CERTIFICATIONS</h1>
                     </div>
                     <div className="my_container">
-                        <div id="default-carousel" className="relative w-full" data-carousel="slide">
+                    <Carousel fade interval={2000} >
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={Nptel}
+                                    alt="NPTEL Certification"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={Tcs_ion}
+                                    alt="TCS iON Certification"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={Hackerrank}
+                                    alt="HackerRank Certification"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={Udemy_1}
+                                    alt="Udemy Course 1"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={Udemy_2}
+                                    alt="Udemy Course 2"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                        {/* <div id="default-carousel" className="relative w-full" data-carousel="slide">
                             <div className="my-carousel relative h-52 rounded-lg md:h-96">
                                 <div className="my-img hidden duration-700 ease-in-out" data-carousel-item>
                                     <img src={Nptel} className="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-full max-h-full" alt="..." />
@@ -58,7 +96,8 @@ function Section3() {
                                 </span>
                             </button>
 
-                        </div>
+                        </div> */}
+
 
                     </div>
                 </div>
